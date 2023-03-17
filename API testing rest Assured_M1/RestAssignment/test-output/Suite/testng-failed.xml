@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PetStore API Test(failed)">
+    <classes>
+      <class name="com.petstore.Petstore_Test1">
+        <methods>
+          <include name="deletepet_chaining"/>
+          <include name="findById"/>
+          <include name="base"/>
+          <include name="createPet_chaining"/>
+        </methods>
+      </class> <!-- com.petstore.Petstore_Test1 -->
+      <class name="com.petstore.Petstore_Test2">
+        <methods>
+          <include name="findById"/>
+          <include name="base"/>
+          <include name="findByStatus"/>
+        </methods>
+      </class> <!-- com.petstore.Petstore_Test2 -->
+    </classes>
+  </test> <!-- PetStore API Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
